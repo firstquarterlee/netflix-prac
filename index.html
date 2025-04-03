@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>넷플릭스 클론</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header class="main-header">
+      <div class="logo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix Logo"
+        />
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#">지금 뜨는 콘텐츠</a></li>
+          <li><a href="#">멤버십</a></li>
+          <li><a href="#">가입해야 하는 이유</a></li>
+          <li><a href="#">자주 묻는 질문</a></li>
+        </ul>
+      </nav>
+      <div class="right-buttons">
+        <select>
+          <option>한국어</option>
+          <option>English</option>
+        </select>
+        <button>로그인</button>
+      </div>
+    </header>
+
+    <!-- 메인 배너 -->
+    <main class="main-banner">
+      <h1>영화, 시리즈 등을 <br />무제한으로</h1>
+      <h2>5,500원으로 시작하세요. 멤버십은 언제든지 해지 가능합니다.</h2>
+      <p>
+        시청할 준비가 되셨나요? 이메일 주소를 입력해서 멤버십을 등록하거나 다시
+        시작하세요.
+      </p>
+      <div class="email-form">
+        <input type="email" placeholder="이메일 주소" />
+        <button>시작하기 ></button>
+      </div>
+    </main>
+
+    <!-- 반투명한 사각형 박스 -->
+    <section class="notice-box">
+      <div class="notice-text">
+        <h3><strong>5,500원이면 만날 수 있는 넷플릭스.</strong></h3>
+        <p>몇 개의 중간 광고와 함께 요금도 절약하고 넷플릭스도 즐겨보세요.</p>
+      </div>
+      <button class="learn-more-btn">자세히 알아보기</button>
+    </section>
+
+    <!-- 콘텐츠 섹션 -->
+    <section class="trending">
+      <h2>지금 뜨는 콘텐츠</h2>
+      <div class="content-row">
+        <img
+          src="https://occ-0-4959-993.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABak_LMOLSXUEnf_X4o0Mc6dRTEJsY9MQ1l9q_9V67fKFPngp6iw5yAk-jABwid66ix36PEu8ujgG-NCBWyN9_-b9aSgmlOwoZ_CU9wYcmFeEw6NZB5sLnz7YFkMqbezkm56Hnm2wZUg7aEkJAbg0A-z7T5xefp0L3ozXTsH0JMQVb7L2PhyixriWiJqCV7cZk7fjnbqLgFdKUNTV.webp?r=153"
+          alt="콘텐츠 1"
+        />
+        <img
+          src="https://occ-0-4959-993.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABdwtyTGS1pbBXbbcC96rWXZXHgHdFBZwb_FEBhe2IY8PfnGsABKlfaTxNLLUYSTFVuUpJnc5zqaBoD5I9D47KooIWbynZSJE97b7OZM7sOBmhm-ld2NWBuDIXayqNOsq5dgDqPgF-HviF0ce2S08jsbzj95ZAo-D7pEADiOYj6prfI3pxzulAMFqnxWXYXVim8eCQrRUXy-C8k2Z.webp?r=c39"
+          alt="콘텐츠 2"
+        />
+        <img
+          src="https://occ-0-4959-993.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABWV_5eC2Nc9MwFNoUYqz8rqANZxXuL832_8CKORYg-LDzVBzkf9dN4SyvIC0yT-OF85uI4Joh8CZxjiPdcp3sjkd-NtE76R7S5-N1XeAfRElu3za7qo_P3cLsd66qq8JCwy3iKwoy9ttWPNnPiLh.webp?r=77f"
+          alt="콘텐츠 3"
+        />
+        <img
+          src="https://occ-0-4959-993.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABRxTtcDcBQl1HXwwCUSweXckNnaXYPBG5ghzpizuzDq0hK2Ku1dzbVJkkQ3MzUAJBWp0Z4950rwhOXxDIdgv1q95ltn0yBmy21fBimvYXIM4vqugY2iynOwBhUhCTPj3DV17EHQpftvB59yuqV_3uMPmfZ-ZgbclPN65cqcVamZyRxvmM_vvigkhAQNIuSTNhDa2FAMzO9tg9oSN.webp?r=08e"
+          alt="콘텐츠 4"
+        />
+        <img
+          src="https://occ-0-4959-993.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABVWUShFWf2EfTUbQu0uDBkfAgY1CzmrsytAfO6wtTqGn7k1oBCz5wC2QkfFgAE2zTvAY3JvhRh9uZmxvdE2zxZjl4pvYhBdktFuPCn62YbZpt-t35wvNFLeShwdJEZH7Nxytbn9SNKRszghj641C.webp?r=b72"
+          alt="콘텐츠 5"
+        />
+        <img
+          src="https://occ-0-4959-993.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABS5n6OiXQDbmq3Xpf4OKIEmc8F9QtOHrE_skAFFdLHTg8paGSKPloCcRsfKX7MOTBtnleNXfXalFGMXTkCpjZbDx_vTMpKBfe5jUfiMidKNHmWofref_1cAma99vX0hnbNJy9RoOXz0ZtAQjEQMfZl63YMG6hAOd83jFoBhbKA.webp?r=752"
+          alt="콘텐츠 6"
+        />
+        <img
+          src="https://occ-0-4959-993.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABRvUJHDIGZspVXH1H1tWgZGBy3hgNvrsimgMrbLxsIaw6nj1G0CFoplowREGvUPm9jLi2mIEbZ8VcNOzvbYSozfmlXHCpsW0WlZWYWLRNfGR14Z_GKRfv0qZNn_jJansHQWoC9XpoNen3fWxYjjr00LSVMlmajauQdHJmm5KnSNnLLFWgR5HqWMColdASsIyEzgNbs_Rv0nNrz2yGIYFzJAi37zBaWs-ANZLtQ.webp?r=eab"
+          alt="콘텐츠 7"
+        />
+      </div>
+    </section>
+  </body>
+</html>
